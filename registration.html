@@ -2,27 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Register</title>
+  <title>Register | MyApp</title>
   <link rel="stylesheet" href="registration.css">
 </head>
 <body>
-  <h2>Registration Form</h2>
-  <form action="/register" method="post">
-    <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" required><br><br>
+  <div class="container">
+    <div class="register-card">
+      <h2>Create Your Account ✨</h2>
+      <p class="subtitle">Join us and start your journey today</p>
 
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+      <form action="/register" method="post">
+        <div class="input-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        </div>
 
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
 
-    <label for="confirm">Confirm Password:</label><br>
-    <input type="password" id="confirm" name="confirm" required><br><br>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Create a password" required>
+        </div>
 
-    <button type="submit">Register</button>
-  </form>
+        <div class="input-group">
+          <label for="confirm">Confirm Password</label>
+          <input type="password" id="confirm" name="confirm" placeholder="Re-enter your password" required>
+        </div>
 
-  <p>Already have an account? <a href="login.html">Login here</a></p>
+        <button type="submit">Register</button>
+      </form>
+
+      <p class="login-text">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>
