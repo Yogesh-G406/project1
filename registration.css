@@ -1,0 +1,71 @@
+/* Registration Page Styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff3e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+h2 {
+  color: #e65100;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 340px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #bf360c;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffccbc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ef6c00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+a {
+  color: #d84315;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
